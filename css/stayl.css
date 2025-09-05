@@ -1145,24 +1145,20 @@ address {
 
 }
 
-.info input[type='submit'] {
-
-    background-color: var(--main-color);
-    color: white;
-    padding: 20px;
-    border: none;
-    display: flex;
-    margin-left: -205px;
-    margin-top: 16px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
 
 .contact .cont .content .send {
-    border: none;
-    background: var(--main-color);
+    background: none;
+    border: 1px solid var(--main-color);
     padding: 20px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.contact .cont .content .send:hover {
+    background-color: var(--main-color);
+    border: none;
 }
 
 /* end contact */
@@ -1190,6 +1186,7 @@ address {
 
 .footer .container-end {
     position: relative;
+    z-index: 2222222;
 
 }
 
